@@ -1,10 +1,10 @@
 <?php
 
-require '../src/Hello.php' ;
+require '../vendor/autoload.php';
 use App\Hello;
 
 $hi = new Hello() ;
 
 //var_dump($hi) ;
 
-echo $hi->talk() ;
+echo "\n" . $hi->talk() . "\n";
